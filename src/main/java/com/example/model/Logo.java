@@ -27,9 +27,7 @@ public class Logo {
 	@Column
 	private String  exemple;
 	
-	@ManyToOne
-	@JoinColumn(name="TYPE_ID")
-	private Type type;
+	
 	
 	
 	
